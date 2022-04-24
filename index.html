@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            /* CSS RESET */
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background:url('img/abs-1850926_1920.jpg');
+            
+        }
+        .left{
+            position: absolute;
+            left: 35px;
+            top: 0px;
+            display: inline-block;
+        }
+        .left img{
+            width: 98px;
+        }
+        /* .left div{
+            text-align: center;
+        } for making written keyword in center*/
+        .mid{
+            display: block;
+            width: 30%;
+            margin: 2px auto;
+        }
+        .right{
+            position: absolute;
+            right: 35px;
+            top: 0px;
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 18px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 40px 8px;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color:lightgreen;
+        }
+        .btn{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 9px 6px;
+            padding: 3px 1px;
+            background-color: black;
+            color: white;
+            border: 2px solid grey;
+            border-radius: 14px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: burlywood;
+        }
+        .container{
+            margin: 50px 4px;
+            padding: 20px 0px;
+            width: 36%;
+            border-radius: 12px;
+        }
+        .class-form input{
+            text-align: center;
+            display: block;
+            width: 310px;
+            margin: 9px auto;
+            padding: 5px 5px;
+            border: 3px solid green;
+            border-radius: 8px;
+            font-size: 17px;
+        }
+        h1{
+            text-align: center;
+        }
+        .container button{
+            text-align: center;
+            margin: 15px auto;
+            display: block;
+            width: 75px;
+        }
+        .toreset{
+            text-align: center;
+            margin: 15px auto;
+            display: block;
+            width: 85px;
+            padding: 10px 5px;
+            border-radius: 16px;
+            background-color: black;
+            color: white;
+
+        }
+        .toreset:hover{
+            cursor: pointer;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/img1.jpg.jpg" alt="">
+           <div>Raghav Fitness</div>
+        </div>
+        <!-- center for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Routine</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">For More Information</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+        <div class="container">
+            <h1>Join The Best Gym Of Kanpur Now</h1>
+            <form action="noaction.php">
+                <div class="class-form">
+                    <input type="text" name="" placeholder="enter your Name">
+                </div>
+                <div class="class-form">
+                    <input type="text" name="" placeholder="enter your Age">
+                </div>
+                <div class="class-form">
+                    <input type="text" name="" placeholder="enter your Gender">
+                </div>
+                <div class="class-form">
+                    <input type="text" name="" placeholder="enter your Locality">
+                </div>
+                <div class="class-form">
+                    <input type="text" name="" placeholder="enter your Number">
+                </div>
+                <button class="btn">Submit</button>
+                <input class="toreset" type="Reset" value="Reset now">
+            </form>
+        </div>
+</body>
+</html>
